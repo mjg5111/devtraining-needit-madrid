@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7f939828db813300c3b49fd2ca961932</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Assignee Category Decision">880b8c60db813300c3b49fd2ca961910</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">f82ae7d4db013300c3b49fd2ca961909</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>bb3145af-4ae7-466e-a604-ee334a2e5485</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>mgrimm</sys_created_by>
+        <sys_created_on>2019-04-22 22:32:47</sys_created_on>
+        <sys_id>b3939828db813300c3b49fd2ca961934</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_b3939828db813300c3b49fd2ca961934</sys_update_name>
+        <sys_updated_by>mgrimm</sys_updated_by>
+        <sys_updated_on>2019-04-22 22:32:47</sys_updated_on>
+        <ui_id>c2d09605-77e5-4507-b9c0-afe891ce441a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b3939828db813300c3b49fd2ca961934"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b3939828db813300c3b49fd2ca961934</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mgrimm</sys_created_by>
+        <sys_created_on>2019-04-22 22:32:47</sys_created_on>
+        <sys_id>77939828db813300c3b49fd2ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mgrimm</sys_updated_by>
+        <sys_updated_on>2019-04-22 22:32:47</sys_updated_on>
+        <value>Branch for Assignee Categories</value>
+        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b3939828db813300c3b49fd2ca961934</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mgrimm</sys_created_by>
+        <sys_created_on>2019-04-22 22:32:47</sys_created_on>
+        <sys_id>b3939828db813300c3b49fd2ca961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mgrimm</sys_updated_by>
+        <sys_updated_on>2019-04-22 22:32:47</sys_updated_on>
+        <value>880b8c60db813300c3b49fd2ca961910</value>
+        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b3939828db813300c3b49fd2ca961934</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mgrimm</sys_created_by>
+        <sys_created_on>2019-04-22 22:32:47</sys_created_on>
+        <sys_id>ff939828db813300c3b49fd2ca961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mgrimm</sys_updated_by>
+        <sys_updated_on>2019-04-22 22:32:47</sys_updated_on>
+        <value>x_58872_needit_assignee_category</value>
+        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3939828db813300c3b49fd2ca961934"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_priority</field>
+        <id>b3939828db813300c3b49fd2ca961934</id>
+        <sys_created_by>mgrimm</sys_created_by>
+        <sys_created_on>2019-04-22 22:32:47</sys_created_on>
+        <sys_id>73939828db813300c3b49fd2ca96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mgrimm</sys_updated_by>
+        <sys_updated_on>2019-04-22 22:32:47</sys_updated_on>
+        <table>var__m_sys_decision_input_880b8c60db813300c3b49fd2ca961910</table>
+        <value>{{46cf42e3-35ec-4079-842f-ade5193b4f88.record.priority}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_request_type</field>
+        <id>b3939828db813300c3b49fd2ca961934</id>
+        <sys_created_by>mgrimm</sys_created_by>
+        <sys_created_on>2019-04-22 22:32:47</sys_created_on>
+        <sys_id>f7939828db813300c3b49fd2ca96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mgrimm</sys_updated_by>
+        <sys_updated_on>2019-04-22 22:32:47</sys_updated_on>
+        <table>var__m_sys_decision_input_880b8c60db813300c3b49fd2ca961910</table>
+        <value>{{46cf42e3-35ec-4079-842f-ade5193b4f88.record.u_request_type}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_what_needed</field>
+        <id>b3939828db813300c3b49fd2ca961934</id>
+        <sys_created_by>mgrimm</sys_created_by>
+        <sys_created_on>2019-04-22 22:32:47</sys_created_on>
+        <sys_id>37939828db813300c3b49fd2ca96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mgrimm</sys_updated_by>
+        <sys_updated_on>2019-04-22 22:32:47</sys_updated_on>
+        <table>var__m_sys_decision_input_880b8c60db813300c3b49fd2ca961910</table>
+        <value>{{46cf42e3-35ec-4079-842f-ade5193b4f88.record.u_what_needed}}</value>
+    </sys_element_mapping>
+</record_update>
